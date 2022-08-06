@@ -6,6 +6,7 @@ public class HelloWorld {
 		System.out.println("HelloWorld...");
 		System.out.println("changes adding for conflic purpose...");
 		System.out.println("changes adding for pulling purpose...");
-		
+		System.out.println("changes adding for conflic from github purpose...");
+
 	}
 }
