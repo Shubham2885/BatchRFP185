@@ -17,9 +17,6 @@ public class HelloWorld {
 		x = 5;
 		int newvarable = 6;
 		HelloWorld helloWorld = new HelloWorld();
-		
-		StudentDetails studentDetails = new StudentDetails();
-		studentDetails.lname = "sdfsf";
 
 	}
 }

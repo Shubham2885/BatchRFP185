@@ -2,22 +2,22 @@ package javaconstructprogramming;
 
 public class StudentDetails {
 	//fname, lname, rollNo, mobileno, class
-	public String fname;
-	public String lname;
-	int rollNo;
-	long mobileNo;
-	String ssdf;
+	private String fname;
+	private String lname;
+	private int rollNo;
+	private long mobileNo;
 	
-	static int x;
-	
-	void showDetails() {
-		System.out.println("First Name = "+fname);
-		System.out.println("Last Name = "+lname);
-		
-		System.out.println("rollNo= "+rollNo);
+	public StudentDetails(String fname, String lname, int rollNo, long mobileNo) {
+		super();
+		this.fname = fname;
+		this.lname = lname;
+		this.rollNo = rollNo;
+		this.mobileNo = mobileNo;
 	}
-	
-	static void printWelcomeMessage() {
-		
+
+	@Override
+	public String toString() {
+		return "StudentDetails [fname=" + fname + ", lname=" + lname + ", rollNo=" + rollNo + ", mobileNo=" + mobileNo
+				+ "]";
 	}
 }
