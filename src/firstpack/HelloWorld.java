@@ -1,7 +1,5 @@
 package firstpack;
 
-import javaconstructprogramming.StudentDetails;
-
 public class HelloWorld {
 
 	int y;
