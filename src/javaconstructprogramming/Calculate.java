@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Calculate {
 
-	int areaOfRectangle(int l, int b){
+	public int areaOfRectangle(int l, int b){
 		int area = l * b;
 		return area;
 	}
 	
-	double areaOfTriangle(double l, double b){
+	public double areaOfTriangle(double l, double b){
 		double area = 0.5 * l * b;
 		return area;
 	}
 	
-	double getPiValue() {
+	public double getPiValue() {
 		return 3.142;
 	}
 	
-	double areaOfCircle(double r){
+	public double areaOfCircle(double r){
 		double pi = getPiValue();
 		double area = pi * r * r ;
 		return area;
